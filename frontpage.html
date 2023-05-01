@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Rotating_image_gallary.css">
+	<title>Colorful Navbar</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<style type="text/css">
+		/* Background Color for the Navbar */
+		.navbar-custom {
+			background-color: #2C3E50;
+		}
+
+		/* Text Color for the Navbar Links */
+		.navbar-custom .navbar-nav .nav-link {
+			color: #fff;
+		}
+
+		/* Hover Effect for the Navbar Links */
+		.navbar-custom .navbar-nav .nav-link:hover {
+			color: #FFC300;
+		}
+        .img{
+            width: 60px;
+            border-radius: 12px;
+        }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-custom">
+		<div class="container">
+            <img class="img" src="https://www.static-contents.youth4work.com/university/Documents/Colleges/collegeLogo/1364370.PNG?v=20180523100828" alt="Kalna polytechnic">
+			<a class="navbar-brand" href="#" style="padding: 12px;"><h3>Kalna polytechnic</h3></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Academics</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Admissions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Student Life</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Athletics</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+    <div class="rotating_image_gallary">
+
+        <div class="image-container">
+            <span style="--i: 1">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRguqBKOdMDfwqjvv3Hkat3dsTterbwDkd2tSW7lD1Og6PdgB5Oq0kV0Apxk97dnqSLWx8Y5fms4lc&usqp=CAU&ec=48665701" />
+            </span>
+            <span style="--i: 2">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMhy1j4f0gMAnN_XMKKIoxmkVUsoplNkLrWjyWhcOGiA&s" />
+            </span>
+            <span style="--i: 3">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxnQq8rqxSQ9TRNWhqjTPXUoeoUjEkfK32ktJpUevrrb1OT0bsGyOvGdwPftF20boQSCubNqF9M5s&usqp=CAU&ec=48665701" />
+            </span>
+            <span style="--i: 4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sb2VDKRqMSOm0tobZ1Z9p65OZR5ct88oeX7bgCuLjHMG9mN_At8OWzr7oDcQbvBUcb68jITSQYM&usqp=CAU&ec=48665701" />
+            </span>
+            <span style="--i: 5">
+              <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4gQkqUELFCFJv5ZarI9Ayogh8_NE-bbfuO6_hpd_Ravau6_f7ftW0gfCrKTgHqSQAB8_k5hJ5MaE&usqp=CAU&ec=48665701" />
+            </span>
+            <span style="--i: 6">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS2Uz4HFHZv7bDmRM6PvyAC1ETPSBU63T-AJZyKLRvL90lw6W-LP9VP_OlDBxz6OSdl7kdi9DQViY&usqp=CAU&ec=48665701" />
+            </span>
+            <span style="--i: 7">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRa5rIRYFjGtBsxumZzglxNTLaSsj27i15xYj-UEFOLO9r9rdaOlHOSzPZPWbwJJP8ntVtPZPCuO4&usqp=CAU&ec=48665701" />
+            </span>
+            <span style="--i: 8">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sb2VDKRqMSOm0tobZ1Z9p65OZR5ct88oeX7bgCuLjHMG9mN_At8OWzr7oDcQbvBUcb68jITSQYM&usqp=CAU&ec=48665701" />
+            </span>
+          </div>
+          <div class="btn-container">
+            <button class="btn" id="prev">Prev</button>
+            <button class="btn" id="next">Next</button>
+          </div>
+          <script src="Rotating Image Gallery.js"></script>
+    </div>
+
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
